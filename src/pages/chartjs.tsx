@@ -80,6 +80,7 @@ const Chartjs = () => {
             <Doughnut
               data={doughnutData}
               options={{
+                maintainAspectRatio: false,
                 responsive: true,
                 plugins: {
                   legend: {
@@ -96,6 +97,7 @@ const Chartjs = () => {
             <Bar
               options={{
                 responsive: true,
+                maintainAspectRatio: false,
                 plugins: {
                   legend: {
                     display: false,
@@ -114,6 +116,7 @@ const Chartjs = () => {
             <Bar
               options={{
                 responsive: true,
+                maintainAspectRatio: false,
                 plugins: {
                   legend: {
                     display: false,
