@@ -8,7 +8,7 @@ const Title = ({ children }: { children: ReactNode }) => {
 
 const Root = ({ children }: { children: ReactNode }) => {
   return (
-    <div className="bg-white rounded-2xl p-4 flex flex-col gap-6">
+    <div className="bg-white rounded-2xl p-4 flex flex-col gap-6 w-full">
       {children}
     </div>
   );

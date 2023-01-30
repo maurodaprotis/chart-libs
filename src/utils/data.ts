@@ -12,7 +12,7 @@ export const barData = [
   { label: "2-5M", value: 15 },
   { label: "5-10M", value: 20 },
   { label: "10-30M", value: 17 },
-  { label: "30+M", value: 40 },
+  { label: "30M+", value: 40 },
 ];
 
 export const barLineData = [
@@ -42,4 +42,15 @@ export const barLineData = [
       { label: "Q4 22'", value: 40 },
     ],
   },
+];
+
+export const barLineDataGrouped = [
+  { label: "Q1 21'", ltv: 10, deals: 60 },
+  { label: "Q2 21'", ltv: 17, deals: 80 },
+  { label: "Q3 21'", ltv: 40, deals: 100 },
+  { label: "Q4 21'", ltv: 40, deals: 120 },
+  { label: "Q1 22'", ltv: 60, deals: 100 },
+  { label: "Q2 22'", ltv: 40, deals: 80 },
+  { label: "Q3 22'", ltv: 80, deals: 120 },
+  { label: "Q4 22'", ltv: 40, deals: 60 },
 ];
