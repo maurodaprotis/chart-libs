@@ -10,7 +10,7 @@ export default function Home() {
         </Link>
       </li>
       <li>
-        <Link href="/recharts" className="text-blue-600 underline">
+        <Link href="/chartjs" className="text-blue-600 underline">
           Chart.js
         </Link>
       </li>
