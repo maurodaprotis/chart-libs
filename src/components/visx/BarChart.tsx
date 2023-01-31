@@ -18,12 +18,7 @@ const getYValue = (d: Data) => d.value
 // prop candidates (WIP)
 const numTicksY = 5
 const highlight = '30M+'
-const margin = {
-  top: 40,
-  right: 40,
-  bottom: 40,
-  left: 40,
-}
+const margin = { top: 40, right: 40, bottom: 40, left: 40 }
 
 export function BarChart() {
   const [ref, { width, height }] = useMeasure<HTMLDivElement>()
