@@ -12,7 +12,7 @@ export const barData = [
   { label: "2-5M", value: 15 },
   { label: "5-10M", value: 20 },
   { label: "10-30M", value: 17 },
-  { label: "30M+", value: 400 },
+  { label: "30M+", value: 40 },
 ];
 
 export const barLineData = [
