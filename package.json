@@ -27,9 +27,11 @@
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.5",
     "next": "13.1.5",
+    "plotly.js": "^2.18.0",
     "react": "18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "18.2.0",
+    "react-plotly.js": "^2.6.0",
     "react-use": "^17.4.0",
     "react-vega": "^7.6.0",
     "recharts": "^2.3.2",
@@ -38,6 +40,7 @@
     "vega-lite": "^5.6.0"
   },
   "devDependencies": {
+    "@types/react-plotly.js": "^2.6.0",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4"

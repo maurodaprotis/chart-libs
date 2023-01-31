@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link'
 
 export const Navigation = () => {
   return (
@@ -29,10 +29,10 @@ export const Navigation = () => {
         </Link>
       </li>
       <li>
-        <Link href="/Plotly" className="text-blue-600 underline">
+        <Link href="/plotly" className="text-blue-600 underline">
           Plotly
         </Link>
       </li>
     </ul>
-  );
-};
+  )
+}

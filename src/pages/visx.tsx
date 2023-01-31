@@ -23,9 +23,6 @@ const Visx = () => {
             </div>
           </Card.Root>
         </div>
-        <Card.Root>
-          <Card.Title>Composed Chart</Card.Title>
-        </Card.Root>
       </div>
     </Layout>
   )
