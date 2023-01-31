@@ -6,8 +6,6 @@ import {
   CartesianGrid,
   Cell,
   ComposedChart,
-  LabelList,
-  Legend,
   Line,
   Pie,
   PieChart,
@@ -33,7 +31,6 @@ const Recharts = () => {
             <ResponsiveContainer>
               <PieChart>
                 <Tooltip />
-                <Legend verticalAlign="bottom" height={36} />
                 <Pie
                   data={pieData}
                   cx="50%"
@@ -77,7 +74,6 @@ const Recharts = () => {
                 <CartesianGrid />
                 <Tooltip />
                 <XAxis dataKey="label" />
-                <Legend verticalAlign="bottom" height={36} />
                 <YAxis fill="#666" />
                 <Bar data={barData} dataKey="value" fill="#FEC84B">
                   {/* {bdata.map((entry, index) => (
@@ -98,7 +94,6 @@ const Recharts = () => {
                 <CartesianGrid />
                 <Tooltip />
                 <XAxis dataKey="label" />
-                <Legend verticalAlign="bottom" height={36} />
                 <YAxis yAxisId="left" />
                 <YAxis yAxisId="right" orientation="right" />
                 <Bar yAxisId="left" dataKey="deals" fill="#d6bbfb"></Bar>
