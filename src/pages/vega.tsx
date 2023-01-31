@@ -71,8 +71,8 @@ const spec = {
 
 const barChartSpec = {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
-  width: "container",
-  height: 250,
+  width: 500,
+  height: 314,
   data: { name: "table" },
   mark: "bar",
   encoding: {

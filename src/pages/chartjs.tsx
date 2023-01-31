@@ -11,6 +11,8 @@ import {
   LinearScale,
   PointElement,
   LineElement,
+  // Line,
+  LineController,
   BarElement,
 } from "chart.js";
 import { Doughnut, Bar } from "react-chartjs-2";
@@ -24,7 +26,8 @@ ChartJS.register(
   LinearScale,
   BarElement,
   PointElement,
-  LineElement
+  LineElement,
+  LineController // Line
 );
 
 const pieData = donutData
