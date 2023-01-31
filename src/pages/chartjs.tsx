@@ -135,7 +135,7 @@ const Chartjs = () => {
                   },
                 },
               }}
-              data={multiAxisData}
+              data={multiAxisData as any}
             />
           </div>
         </Card.Root>

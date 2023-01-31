@@ -34,11 +34,6 @@ export default function Home() {
           Plotly
         </Link>
       </li>
-      <li>
-        <Link href="/reactcharts" className="text-blue-600 underline">
-          React Charts
-        </Link>
-      </li>
     </Layout>
   );
 }

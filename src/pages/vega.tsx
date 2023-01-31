@@ -103,7 +103,7 @@ const VegaChart = () => {
           <Card.Title>Asset type over the years</Card.Title>
           <div className="h-[314px] w-full">
             <Vega
-              spec={spec}
+              spec={spec as any}
               // data={barData}
             />
           </div>
@@ -111,7 +111,7 @@ const VegaChart = () => {
         <Card.Root>
           <Card.Title>Asset type over the years</Card.Title>
           <div className="h-[314px] w-full">
-            <VegaLite spec={barChartSpec} data={barData} />
+            <VegaLite spec={barChartSpec as any} data={barData} />
           </div>
         </Card.Root>
       </div>
