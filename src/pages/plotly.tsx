@@ -14,7 +14,7 @@ const Plotly = () => {
       <div className="flex gap-8 flex-wrap">
         <div className="flex-1 min-w-0">
           <Card.Root>
-            <Card.Title>Donut Chart</Card.Title>
+            <Card.Title>Asset type over the years</Card.Title>
             <div className="h-[300px]" ref={donutRef}>
               <Plot
                 data={[
@@ -44,7 +44,7 @@ const Plotly = () => {
         </div>
         <div className="flex-1 min-w-0">
           <Card.Root>
-            <Card.Title>Bar Chart</Card.Title>
+            <Card.Title>Asset type over the years</Card.Title>
             <div className="h-[300px]" ref={barRef}>
               <Plot
                 data={[

@@ -9,7 +9,7 @@ const Visx = () => {
       <div className="flex gap-8 flex-wrap">
         <div className="flex-1 min-w-0">
           <Card.Root>
-            <Card.Title>Donut Chart</Card.Title>
+            <Card.Title>Asset type over the years</Card.Title>
             <div className="h-[300px]">
               <DonutChart />
             </div>
@@ -17,7 +17,7 @@ const Visx = () => {
         </div>
         <div className="flex-1">
           <Card.Root>
-            <Card.Title>Bar Chart</Card.Title>
+            <Card.Title>Asset type over the years</Card.Title>
             <div className="h-[300px]">
               <BarChart />
             </div>
