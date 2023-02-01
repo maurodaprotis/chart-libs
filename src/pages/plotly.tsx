@@ -10,7 +10,7 @@ const Plotly = () => {
   const [barRef, barSize] = useMeasure<HTMLDivElement>()
 
   return (
-    <Layout title="Plotly">
+    <Layout title="Plotly" url="https://plotly.com/javascript/">
       <div className="flex gap-8 flex-wrap">
         <div className="flex-1 min-w-0">
           <Card.Root>

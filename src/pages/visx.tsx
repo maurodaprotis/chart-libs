@@ -5,7 +5,7 @@ import { DonutChart } from '@/components/visx/DonutChart'
 
 const Visx = () => {
   return (
-    <Layout title="visx">
+    <Layout title="visx" url="https://airbnb.io/visx/">
       <div className="flex gap-8 flex-wrap">
         <div className="flex-1 min-w-0">
           <Card.Root>

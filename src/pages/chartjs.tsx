@@ -75,7 +75,7 @@ const multiAxisData = {
 
 const Chartjs = () => {
   return (
-    <Layout title="Chart.js">
+    <Layout title="Chart.js" url="https://www.chartjs.org">
       <div className="flex w-full gap-8">
         <Card.Root>
           <Card.Title>Asset type over the years</Card.Title>

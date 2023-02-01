@@ -105,7 +105,7 @@ const barLineOption: EChartsOption = {
 
 const Echarts = () => {
   return (
-    <Layout title="Echarts">
+    <Layout title="Echarts" url="https://echarts.apache.org">
       <div className="flex w-full gap-8">
         <Card.Root>
           <Card.Title>Asset type over the years</Card.Title>

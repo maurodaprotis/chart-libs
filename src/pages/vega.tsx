@@ -97,7 +97,7 @@ const barData = {
 
 const VegaChart = () => {
   return (
-    <Layout title="Vega">
+    <Layout title="Vega" url="https://vega.github.io/vega-lite-api/">
       <div className="flex w-full gap-8">
         <Card.Root>
           <Card.Title>Asset type over the years</Card.Title>

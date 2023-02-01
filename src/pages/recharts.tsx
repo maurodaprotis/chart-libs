@@ -23,7 +23,7 @@ const COLORS = ["#6938EF", "#1570EF", "#D1FADF", "#DC6803", "#CA8504"];
 
 const Recharts = () => {
   return (
-    <Layout title="Recharts">
+    <Layout title="Recharts" url="https://recharts.org">
       <div className="flex w-full gap-8">
         <Card.Root>
           <Card.Title>Asset type over the years</Card.Title>
